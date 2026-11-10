@@ -1,0 +1,15 @@
+silnia = 1
+k = 1
+dopóki (silnia<x) wykonuj
+    k= k + 1
+    silnia = silnia * k
+jeżeli silnia > x
+    silnia = silnia div k
+    k = k - 1
+s = ""
+dopóki (k>0) wykonuj
+    cyfra = x div silnia
+    s = s + tekst(cyfra)
+    x = x mod silnia
+    silnia = silnia div k
+    k = k - 1
